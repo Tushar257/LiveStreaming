@@ -30,7 +30,7 @@ const StreamShow = () => {
         return () => {
             player.destroy()
         }
-    }, [buildPlayer,player])
+    })
     return (
         <div>
             <video ref={video} style={{ width: '100%'}} controls />

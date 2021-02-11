@@ -1,5 +1,6 @@
 import axios from 'axios';
 
 export default axios.create({
-    baseURL : "https://livestreamserver.herokuapp.com"
+    baseURL : "https://live-app-server.herokuapp.com/"
+    // baseURL : "http://localhost:3001"
 })

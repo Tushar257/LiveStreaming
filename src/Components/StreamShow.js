@@ -14,7 +14,7 @@ const StreamShow = () => {
         }
         player = flv.createPlayer({
             type: 'flv',
-            url: `https://rtmplive.herokuapp.com/live/${id}.flv`
+            url: `https://rtmplive.herokuapp.com:18198/live/${id}.flv`
         })
         player.attachMediaElement(video.current);
         player.load();
